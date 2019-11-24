@@ -1,13 +1,19 @@
-<div class="page" data-name="login">
+<div class="page" data-name="login" style="padding-bottom: 0px;">
 
 
 
 
-              <div class="page-content">
+              <div class="page-content bg-color-ash">
 
-                <div class="block text-color-black animated slideInDown slow" style="margin-top:0%; margin-bottom: -10%; height: 30%; padding-top: 10%; background:linear-gradient(90deg,  #0378d2, #32d07c)">
+                <div class="block text-color-black animated slideInDown slow" style="margin-top:0%; margin-bottom: -10%; height: 30%; padding: 0px; background-image: url('imgs/c2.jpg'); background-size: cover;">
 
-                  <img src="imgs/plane.png" style="display:block; margin:0px auto; max-width: 100px;">
+
+                  <div style="width: 100%; height: 100%; opacity: 0.8; position: absolute; background-color:#2f2f2f; z-index: 5;"></div>
+
+
+                  <div style="width: 100%; height: 100%;  position: absolute; z-index: 7;">
+                    <img src="imgs/plane.png" style="display:block; margin:50px auto 0px; max-width: 100px;">
+                  </div>
                  
 
                   
@@ -18,26 +24,26 @@
 
 
 
-                <div class="block animated slideInUp bg-color-white fast" style="border-radius: 35px 35px 0px 0px; margin-top:0px; height: 70%; padding-top: 20%;">
+                <div class="block animated slideInUp medium bg-color-ash" style="border-radius: 35px 35px 0px 0px; margin:0px; padding-top: 5px;">
 
-                  <h1 class="text-center text-color-black">Log In</h1>
+                  <h1 class="text-center text-color-black" style="margin:0px !important;">Log In</h1>
 
+                  <br>
 
-
-    <form class="list form-store-data no-hairlines-md no-hairlines-ios" id="login-form" onsubmit="return false">
+    <form class="list form-store-data no-hairlines-md no-hairlines-ios" id="login-form" onsubmit="return false" style="margin:0px;">
       <ul>
 
-        <li class="item-content item-input">
+        <li class="item-content item-input bg-color-ash">
           <div class="item-inner">
             
-            <div class="item-input-wrap">
-              <input id="login-email" type="text" placeholder="Phone number, email or username" required>
+            <div class="item-input-wrap ">
+              <input id="login-email" type="text" placeholder="Phone number, email or username" required class="">
               <span class="input-clear-button"></span>
             </div>
           </div>
         </li>
        
-        <li class="item-content item-input">
+        <li class="item-content item-input bg-color-ash">
           <div class="item-inner">
             <div class="item-input-wrap">
               <input id="login-password" type="password" placeholder="Password" required>
@@ -51,6 +57,9 @@
         
       </ul>
 
+      <p class="text-center">
+        <a href="/recover/" class="text-color-blue">Forgot Password? Click Here</a>
+      </p>
       <br>
 
 
@@ -62,28 +71,36 @@
       
       
 
-      <div class="block-title text-center">or Sign in with</div>
+      <div class="block-title text-center">or Sign in in with</div>
       <br>
       
-        <div class="text-center">
+      
+
+        <div class="row">
+        <button class="col button button-fill button-round button-large color-red">
           <i class="icon f7-icons">logo_google</i>&nbsp;Google
-          &nbsp; &nbsp;
+        </button>
+        <button class="col button button-outline button-round button-large">
           <i class="icon f7-icons">logo_facebook</i>&nbsp;Facebook
-        </div>
+        </button>
+      </div>
+
       
     </form>
 
+    <br><br>
+
     <p class="text-center">
-      <a href="/recover/" class="text-color-orange">Forgot Password?</a>
-      &nbsp; &nbsp;
-      <a href="/signup/" class="text-color-orange">SIGN UP</a>
+      
+      <button class="col button button-outline button-round button-large">
+          Creat account
+        </button>
     </p>
 
 
                 </div>
 
          
-
 
 
 
